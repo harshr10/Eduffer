@@ -1,0 +1,451 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.eduffer.NavigationMenu.Home.TabLayout.TravelFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/airindia_cardview"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="40dp"
+        android:elevation="25dp"
+        android:innerRadius="0dp"
+        android:shape="ring"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="55dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ai" />
+    </androidx.cardview.widget.CardView>
+
+
+    <TextView
+        android:id="@+id/airindia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/crete_round"
+        android:text="@string/air_india"
+        android:textColor="?android:textColorPrimary"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/airindia_cardview" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/british_cardview"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="60dp"
+        android:elevation="25dp"
+        android:innerRadius="0dp"
+        android:shape="ring"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="55dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/bri"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/britishairways"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="40dp"
+        android:fontFamily="@font/crete_round"
+        android:text="@string/british_airways"
+        android:textColor="?android:textColorPrimary"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/british_cardview" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/emirates_cardview"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="50dp"
+        android:elevation="25dp"
+        android:innerRadius="0dp"
+        android:shape="ring"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="55dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/airindia">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:src="@drawable/emi" />
+    </androidx.cardview.widget.CardView>
+
+
+    <TextView
+        android:id="@+id/emirates"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/crete_round"
+        android:text="@string/emirates"
+        android:textColor="?android:textColorPrimary"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emirates_cardview" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/easemytrip_cardview"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="60dp"
+        android:elevation="25dp"
+        android:innerRadius="0dp"
+        android:shape="ring"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="55dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/britishairways">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/ease" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/easemytrip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="51dp"
+        android:fontFamily="@font/crete_round"
+        android:text="@string/ease_my_trip"
+        android:textColor="?android:textColorPrimary"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/easemytrip_cardview" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/gofirst_cardView"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="50dp"
+        android:elevation="25dp"
+        android:innerRadius="0dp"
+        android:shape="ring"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="55dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emirates">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/gofirst" />
+    </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/gofirst"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="68dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/crete_round"
+            android:text="@string/go_first"
+            android:textColor="?android:textColorPrimary"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/gofirst_cardView" />
+
+        <androidx.cardview.widget.CardView
+        android:id="@+id/indigo_cardView"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="60dp"
+        android:elevation="25dp"
+        android:innerRadius="0dp"
+        android:shape="ring"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="55dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/easemytrip">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:src="@drawable/logo_of_indigo" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/indigo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="80dp"
+        android:fontFamily="@font/crete_round"
+        android:text="@string/indigo"
+        android:textColor="?android:textColorPrimary"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/indigo_cardView" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/isic_cardview"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="50dp"
+        android:elevation="25dp"
+        android:innerRadius="0dp"
+        android:shape="ring"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="55dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gofirst">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/unnamed" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/isic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="87dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/crete_round"
+        android:text="@string/isic"
+        android:textColor="?android:textColorPrimary"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/isic_cardview" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/lufthansa_cardView"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="60dp"
+        android:elevation="25dp"
+        android:innerRadius="0dp"
+        android:shape="ring"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="55dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/indigo">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/lufthansa" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/lufthansa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="62dp"
+        android:fontFamily="@font/crete_round"
+        android:text="@string/lufthansa"
+        android:textColor="?android:textColorPrimary"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lufthansa_cardView" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/spicejet_cardview"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="50dp"
+        android:elevation="25dp"
+        android:innerRadius="0dp"
+        android:shape="ring"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="55dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/isic">
+
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_gravity="center"
+            android:src="@drawable/spicejet" />
+    </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/spicejet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="72dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/crete_round"
+            android:text="@string/spicejet"
+            android:textColor="?android:textColorPrimary"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/spicejet_cardview" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/surffares_cardview"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="60dp"
+            android:elevation="25dp"
+            android:innerRadius="0dp"
+            android:shape="ring"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="55dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/lufthansa">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/surffares" />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/surffares"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="64dp"
+            android:fontFamily="@font/crete_round"
+            android:text="@string/surffares"
+            android:textColor="?android:textColorPrimary"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/surffares_cardview" />
+
+        <androidx.cardview.widget.CardView
+
+            android:id="@+id/virginatlantic_cardview"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="50dp"
+            android:elevation="25dp"
+            android:innerRadius="0dp"
+            android:shape="ring"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="55dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/spicejet">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/virgin_atlantic_logo" />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/virginatlantic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="60dp"
+            android:fontFamily="@font/crete_round"
+            android:text="@string/virgin_atlantic"
+            android:textColor="?android:textColorPrimary"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/virginatlantic_cardview" />
+
+        <androidx.cardview.widget.CardView
+
+            android:id="@+id/yatra_cardview"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="60dp"
+            android:elevation="25dp"
+            android:innerRadius="0dp"
+            android:shape="ring"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="55dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/surffares">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/yatra__1_" />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/yatra"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="81dp"
+            android:layout_marginBottom="60dp"
+            android:fontFamily="@font/crete_round"
+            android:text="@string/yatra"
+            android:textColor="?android:textColorPrimary"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/yatra_cardview" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

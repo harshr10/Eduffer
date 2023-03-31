@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.eduffer.NavigationMenu.Dashboard.TabLayout.BasicInfoFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/logo_cardView"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:elevation="25dp"
+            android:innerRadius="0dp"
+            android:shape="ring"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="55dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/Account_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/studentlogo"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.cardview.widget.CardView>
+
+        <EditText
+            android:id="@+id/basicinfo_name"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginTop="25dp"
+            android:background="@null"
+            android:enabled="false"
+            android:gravity="center"
+            android:hint="@string/name"
+            android:fontFamily="@font/crete_round"
+            android:inputType="textCapWords"
+            android:textColor="?android:textColorPrimary"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/logo_cardView" />
+
+        <EditText
+            android:id="@+id/basicinfo_dob"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:background="@null"
+            android:fontFamily="@font/crete_round"
+            android:gravity="center"
+            android:hint="@string/dob"
+            android:inputType="date"
+            android:clickable="false"
+            android:cursorVisible="false"
+            android:focusable="false"
+            android:maxLength="10"
+            android:textColor="?android:textColorPrimary"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/basicinfo_name" />
+
+        <EditText
+            android:id="@+id/basicinfo_age"
+            android:layout_width="wrap_content"
+            android:fontFamily="@font/crete_round"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:background="@null"
+            android:hint="@string/age"
+            android:maxLength="2"
+            android:gravity="center"
+            android:enabled="false"
+            android:textColor="?android:textColorPrimary"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/basicinfo_dob" />
+
+        <EditText
+            android:id="@+id/basicinfo_emailid"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:background="@null"
+            android:enabled="false"
+            android:fontFamily="@font/crete_round"
+            android:gravity="center"
+            android:hint="@string/emailid"
+            android:textColor="?android:textColorPrimary"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/basicinfo_age" />
+
+        <EditText
+            android:id="@+id/basicinfo_mob"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginTop="16dp"
+            android:background="@null"
+            android:enabled="false"
+            android:fontFamily="@font/crete_round"
+            android:gravity="center"
+            android:hint="@string/mobno"
+            android:maxLength="10"
+            android:textColor="?android:textColorPrimary"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/basicinfo_emailid" />
+
+        <EditText
+            android:id="@+id/basicinfo_country"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:background="@null"
+            android:enabled="false"
+            android:hint="@string/country"
+            android:gravity="center"
+            android:inputType="textCapWords"
+            android:textColor="?android:textColorPrimary"
+            android:textSize="20sp"
+            android:fontFamily="@font/crete_round"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/basicinfo_mob" />
+
+        <EditText
+            android:id="@+id/basicinfo_state"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:background="@null"
+            android:enabled="false"
+            android:hint="@string/state"
+            android:inputType="textCapWords"
+            android:textColor="?android:textColorPrimary"
+            android:textSize="20sp"
+            android:fontFamily="@font/crete_round"
+            android:gravity="center"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/basicinfo_country" />
+
+        <EditText
+            android:id="@+id/basicinfo_city"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:background="@null"
+            android:enabled="false"
+            android:hint="@string/city"
+            android:inputType="textCapWords"
+            android:textColor="?android:textColorPrimary"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:fontFamily="@font/crete_round"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/basicinfo_state" />
+
+        <EditText
+            android:id="@+id/basicinfo_pincode"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:background="@null"
+            android:hint="@string/pincode"
+            android:fontFamily="@font/crete_round"
+            android:maxLength="6"
+            android:gravity="center"
+            android:enabled="false"
+            android:textColor="?android:textColorPrimary"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:inputType="number"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/basicinfo_city" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/basicinfo_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="60dp"
+            android:background="@drawable/round_button"
+            android:text="@string/edit"
+            android:gravity="center"
+            android:fontFamily="@font/crete_round"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/basicinfo_pincode" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/basicinfo_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="60dp"
+            android:background="@drawable/round_button"
+            android:text="@string/submit"
+            android:gravity="center"
+            android:fontFamily="@font/crete_round"
+            android:textColor="@color/white"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/basicinfo_pincode" />
+
+        <TextView
+            android:id="@+id/Loading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/crete_round"
+            android:gravity="center"
+            android:text="@string/loading"
+            android:textColor="?android:textColorPrimary"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toTopOf="@+id/basicinfo_edit"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/logo_cardView" />
+
+        <ProgressBar
+            android:id="@+id/progressBarLaoding"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            app:layout_constraintBottom_toTopOf="@+id/Loading"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

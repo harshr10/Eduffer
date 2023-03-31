@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "107826142353",
+    "project_id": "eduffer-a9d33",
+    "storage_bucket": "eduffer-a9d33.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:107826142353:android:d94f9eb8056e3f34fbb330",
+        "android_client_info": {
+          "package_name": "com.example.eduffer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "107826142353-e4nm8rasm7nrhe6rqs3qf82ddhic4u0m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1uopHs0bLwFUZfy3yXxM9CZEwut9_a7I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "107826142353-e4nm8rasm7nrhe6rqs3qf82ddhic4u0m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

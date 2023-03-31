@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">Eduffer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_home">HOME</string>
+    <string name="menu_settings">SETTINGS</string>
+
+    <string name="emailid">EMAIL ID</string>
+    <string name="pwd">PASSWORD</string>
+    <string name="fgtpwd">FORGOT PASSWORD?</string>
+    <string name="createaccount">CREATE ACCOUNT</string>
+    <string name="login">LOGIN</string>
+    <string name="name">NAME</string>
+    <string name="mobno">MOBILE NO</string>
+    <string name="country">COUNTRY</string>
+    <string name="state">STATE</string>
+    <string name="city">CITY</string>
+    <string name="pincode">PINCODE</string>
+    <string name="submit">SUBMIT</string>
+    <string name="next">NEXT</string>
+    <string name="newpwd">NEW PASSWORD</string>
+    <string name="repwd">RE-ENTER PASSWORD</string>
+    <string name="sendveriflink">SEND VERIFICATION LINK</string>
+    <string name="dob">DATE OF BIRTH</string>
+    <string name="age">AGE</string>
+
+    <string name="Education">EDUCATION</string>
+    <string name="Entertainment">ENTERTAINMENT</string>
+    <string name="Gadgets">GADGETS</string>
+    <string name="Hotels">HOTELS</string>
+    <string name="Lifestyle">LIFESTYLE</string>
+    <string name="Theme_Parks">THEME PARKS</string>
+    <string name="Travel">TRAVEL</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="adobe">Adobe</string>
+    <string name="coursera">Coursera</string>
+    <string name="evernote">Evernote</string>
+    <string name="github">GitHub</string>
+    <string name="impact">Impact</string>
+    <string name="microsoft">Microsoft</string>
+    <string name="testbook">Testbook</string>
+    <string name="udemy">Udemy</string>
+    <string name="wix">Wix</string>
+    <string name="ny_times">NY Times</string>
+    <string name="spotify">Spotify</string>
+    <string name="amazon_prime">Amazon Prime</string>
+    <string name="samsung">Samsung</string>
+    <string name="realme">Realme</string>
+    <string name="only">Only</string>
+    <string name="nike">Nike</string>
+    <string name="lakme">Lakme</string>
+    <string name="eric_dress">Eric Dress</string>
+    <string name="crocs">Crocs</string>
+    <string name="basic_info">BASIC INFO</string>
+    <string name="unversity_info">UNVERSITY INFO</string>
+    <string name="menu_dashboard">Dashboard</string>
+    <string name="university_name">UNIVERSITY NAME</string>
+    <string name="edit">EDIT</string>
+    <string name="air_india">Air India</string>
+    <string name="dept">DEPARTMENT</string>
+    <string name="year">YEAR</string>
+    <string name="reg_no">REGISTRATION NUMBER</string>
+</resources>
